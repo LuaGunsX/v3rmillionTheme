@@ -1,0 +1,51 @@
+<link rel="Shortcut icon" href="{$theme['imgdir']}/Favicon.webp" />
+<a name="top" id="top"></a>
+      <div id="header">
+         <div class="wrap">
+            <div id="logo">
+               <a href="index.php"><img src="{$theme['logo']}" alt="V3rmillion" title="V3rmillion" /></a>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            </div>
+         </div>
+      </div>
+      <div id="bridge">
+         <div class="wrap">         
+			 <div id="panel">
+            </div>     
+			 <ul class="menu top_links">
+               <li>
+                  <a href="index.php" class="forum"><span><i class="fa fa-home"></i>&nbsp; Home</span></a>
+               </li>
+               <li><a href="announcements.php?aid=1" class="rules"><span><i class="fa fa-info"></i>&nbsp; Rules</span></a></li>
+               <li><a href="memberlist.php" class="memberlist"><span><i class="fa fa-users"></i>&nbsp; Member List</a></span></li>
+               <li><a href="search.php" class="search"><span><i class="fa fa-search"></i>&nbsp; Search</a></span></li>
+               <li><a href="autoupgrade.php" class="upgrade"><span><i class="fa fa-exclamation"></i>&nbsp; Upgrade</span></a></li>
+               <li><a href="CHATBOX LINK HERE" class="chatbox"><span><i class="fa fa-comment"></i>&nbsp; Chatbox</span></a></li>
+			   <li><a href="misc.php?action=help" class="help"><span><i class="fa fa-info-circle"></i>&nbsp; Help</span></a></li>
+               <li>
+                  <a href="#"><span><i class="fa fa-question-circle"></i>&nbsp; Misc</span></a>
+                  <ul class="ddm">
+                     <li><a href="awards.php"><span><i class="fa fa-trophy"></i>&nbsp; Awards</span></a></li>
+                     <li><a href="misc.php?action=help" class="help"><span><i class="fa fa-info-circle"></i>&nbsp; Help</span></a></li>
+                  </ul>
+               </li>
+				       <div id="panel">
+         {$welcomeblock}
+      </div>
+            </ul>	 
+			 <!-- </div> in header_welcomeblock_member and header_welcomeblock_guest -->
+				<!-- </div> in header_welcomeblock_member and header_welcomeblock_guest -->
+         </div>
+      </div>
+	<style>
+.sceditor-container,.sceditor-container div,div.sceditor-dropdown,div.sceditor-dropdown div {
+    z-index: 1 !important;
+}
+.signature{
+	height:auto;
+	max-height:300px;
+}
+</style>
+<div id="wrapper">
+	<div id="container">
+			<navigation>{$pm_warning}
